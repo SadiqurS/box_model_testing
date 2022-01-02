@@ -1,0 +1,104 @@
+div{
+    width: 200px;
+    height: 200px;
+    
+}
+h1{
+    background-color: #f4978e;
+    width: 210px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    border: 4px inset #e0aaff;
+    border-top-color: #e0aaff;
+    border-radius: 2rem;
+    color: #8c2f39;
+    border-right-color: #c5dedd;
+    border-bottom-color: #c5dedd;
+    margin: 0 auto;
+    
+}
+
+#one{
+    background-color:#a0c4ff ;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#two{
+    background-color:#bdb2ff ;
+    border-width: 3px;
+    border-color: #15616d;
+    border-style: dashed;
+    box-sizing: border-box;
+    border-left-width: 6px;
+    border-left-color: cornflowerblue;
+    padding:5px;
+    margin: 15px;
+}
+
+#three{
+    background-color:#ffafcc ;
+    border: 3px solid #013a63;
+    border-left-style: inset;
+    border-left-color: #9d4edd;
+    border-left-width: 6px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 15px 30px;
+}
+button{
+    padding:3px 10px;
+    border-radius: 2em;
+    background-color: #1982c4;
+    font-size:large;
+    display: block;
+    margin: 10px;
+
+}
+
+#dbox {
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 50px;
+  font-size: 40px;
+}
+
+ul {
+  font-size: .5em;
+}
+
+
+
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align:center;
+    box-sizing: border-box;
+    
+  }
+
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
